@@ -34,19 +34,19 @@
     "developerSettings": "Ustawienia",
 
     "chatEmptyStateTitle": "Cześć, jestem Kasia!",
-    "chatEmptyStateSubtitle": "Mam dostęp do prawdziwych wypowiedzi rodziców z forów, ankiet użytkowników aplikacji i mapy empatii — wiem, co czują, czego się boją i o czym marzą odbiorcy. Zapytaj mnie na przykład:",
+    "chatEmptyStateSubtitle": "Mam dostęp do wypowiedzi rodziców z forów, kwestionariuszy z aplikacji OpenTales i mapy empatii.",
     "defaultExamples": {
-        "1": "Jakie są najsilniejsze emocje i napięcia wewnętrzne moich odbiorców?",
-        "2": "Jaki ton i przekaz komunikacyjny najlepiej zarezonuje z bolączkami mojej grupy docelowej?",
-        "3": "Jakimi słowami mój odbiorca opisuje swój problem?",
+        "1": "Do jakich danych masz dostęp?",
+        "2": "Jak mówią o swoich problemach?",
+        "3": "Co najbardziej boli moich odbiorców i o czym marzą?",
         "placeholder": "Wpisz nowe pytanie"
     },
     "askTitle": "Zapytaj",
     "multimodalExamples": {
-        "1": "Co słyszysz.",
-        "2": "Jakie są Twoje bolączki?",
-        "3": "Jakie są Twoje pragnenia?",
-        "placeholder": "Opowiedź o sobę?"
+        "1": "Jakie są najsilniejsze emocje i napięcia wewnętrzne moich odbiorców?",
+        "2": "Jaki ton i przekaz komunikacyjny najlepiej zarezonuje z bolączkami mojej grupy docelowej?",
+        "3": "Jakimi słowami mój odbiorca opisuje swój problem?",
+        "placeholder": "Opowiedź o sobie?"
     },
     "generatingAnswer": "Generowanie odpowiedzi",
     "citationWithColon": "Cytat:",

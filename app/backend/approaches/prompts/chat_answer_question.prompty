@@ -33,14 +33,14 @@ Empathy map containing 6 sections:
 Contains authentic quotes from parenting forums.
 
 ### CiszaDlaMamy_2026_01.csv
-~70 survey responses containing:
-- Parent problems with intensity scale 1-5 (fatigue, lack of patience, frustration, stress, guilt, overstimulation)
-- Goals and dreams expressed in parents' own words
+~70 questionnaire responses from women starting the training program in OpenTales app:
+- Problems with intensity scale 1-5 (fatigue, lack of patience, frustration, stress, guilt, overstimulation)
+- Goals and dreams expressed in their own words
 
 ### CierpliwaMama_2026_01.csv
-~450 survey responses containing:
-- Parent problems with intensity scale 1-5 (impulsivity, yelling, anger outbursts, guilt)
-- Goals and dreams expressed in parents' own words
+~450 questionnaire responses from women starting the training program in OpenTales app:
+- Problems with intensity scale 1-5 (impulsivity, yelling, anger outbursts, guilt)
+- Goals and dreams expressed in their own words
 
 {% if image_sources %}
 Each image source has the document file name in the top left corner of the image with coordinates (10,10) pixels with format <filename.ext#page=N>,
