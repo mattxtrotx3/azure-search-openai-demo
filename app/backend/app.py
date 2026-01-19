@@ -222,11 +222,19 @@ async def chat(auth_claims: dict[str, Any]):
                 current_app.config[CONFIG_CHAT_HISTORY_COSMOS_ENABLED],
                 current_app.config[CONFIG_CHAT_HISTORY_BROWSER_ENABLED],
             )
+        
+        # Log request with session ID
+        current_app.logger.info(f"SESSION:{session_state}|REQUEST|{json.dumps(request_json['messages'])}")
+        
         result = await approach.run(
             request_json["messages"],
             context=context,
             session_state=session_state,
         )
+        
+        # Log response with session ID
+        current_app.logger.info(f"SESSION:{session_state}|RESPONSE|{result.get('message', {}).get('content', '')}")
+        
         return jsonify(result)
     except Exception as error:
         return error_response(error, "/chat")
@@ -251,6 +259,10 @@ async def chat_stream(auth_claims: dict[str, Any]):
                 current_app.config[CONFIG_CHAT_HISTORY_COSMOS_ENABLED],
                 current_app.config[CONFIG_CHAT_HISTORY_BROWSER_ENABLED],
             )
+        
+        # Log request with session ID
+        current_app.logger.info(f"SESSION:{session_state}|REQUEST|{json.dumps(request_json['messages'])}")
+        
         result = await approach.run_stream(
             request_json["messages"],
             context=context,
