@@ -76,7 +76,7 @@ i18next
             it: { translation: itTranslation },
             pl: { translation: plTranslation }
         },
-        fallbackLng: "en",
+        fallbackLng: "pl",
         supportedLngs: Object.keys(supportedLngs),
         debug: import.meta.env.DEV,
         interpolation: {
