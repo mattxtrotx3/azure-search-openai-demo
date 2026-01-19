@@ -34,11 +34,11 @@
     "developerSettings": "Ustawienia",
 
     "chatEmptyStateTitle": "Cześć, jestem Kasia!",
-    "chatEmptyStateSubtitle": "O czym dziś chcesz porozmawiać?",
+    "chatEmptyStateSubtitle": "Mam dostęp do prawdziwych wypowiedzi rodziców z forów, ankiet użytkowników aplikacji i mapy empatii — wiem, co czują, czego się boją i o czym marzą odbiorcy. Zapytaj mnie na przykład:",
     "defaultExamples": {
-        "1": "Co czujesz i myślisz?",
-        "2": "Co mówisz i robisz?",
-        "3": "Co widzisz?",
+        "1": "Jakie są najsilniejsze emocje i napięcia wewnętrzne moich odbiorców?",
+        "2": "Jaki ton i przekaz komunikacyjny najlepiej zarezonuje z bolączkami mojej grupy docelowej?",
+        "3": "Jakimi słowami mój odbiorca opisuje swój problem?",
         "placeholder": "Wpisz nowe pytanie"
     },
     "askTitle": "Zapytaj",
